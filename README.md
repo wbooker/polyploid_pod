@@ -48,6 +48,6 @@ Additional numeric parameters:
 
 To run the following works as an example from the command line:
 ```
-slim -d "out_dir='output'" -d g_size=999999 -d K=100 -d "r=NA" -d u_del=1e-8 -d u_ben=0 -d b_s=0 -d d_s=-0.005 -d rho=1e-8 -d "inheritance='auto'" -d "dom_pattern='recessive'" -d "repro_model='WF'" -d self_rate=0 polyploid_single_population.slim 
+slim -d "out_dir='output'" -d g_size=999999 -d K=100 -d "r='NA'" -d u_del=1e-8 -d u_ben=0 -d b_s=0 -d d_s=-0.005 -d rho=1e-8 -d "inheritance='auto'" -d "dom_pattern='recessive'" -d "repro_model='WF'" -d self_rate=0 polyploid_single_population.slim 
 ```
 
